@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg2">
+
+        <RatingBar
+            android:id="@+id/ratebar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:paddingTop="10dp"
+            android:progressTint="@color/yellow"
+            tools:ignore="UnusedAttribute" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/sign_up"
+            android:text="@string/submit"
+            android:textStyle="italic|bold"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+
+
+        <Button
+            android:id="@+id/later"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="25dp"
+            android:background="@drawable/sign_up"
+            android:text="@string/later"
+            android:textStyle="italic|bold"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

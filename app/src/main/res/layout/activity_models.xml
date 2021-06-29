@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.Activities.ModelsActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:theme="@style/models">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_margin="10dp"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/sign_up"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/email"
+            android:text="تفاصيل المنتج"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorDark"
+            android:layout_marginStart="70dp" />
+
+    </LinearLayout>
+
+    <com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1dp"
+        app:icvp_center_page_scale_offset="20dp"
+        app:icvp_interpolator="@android:anim/accelerate_decelerate_interpolator"
+        app:icvp_max_page_scale="1"
+        app:icvp_medium_scaled="false"
+        app:icvp_min_page_scale="0.70"
+        app:icvp_min_page_scale_offset="7dp"
+        app:icvp_scroll_duration="250">
+
+    </com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager>
+
+</LinearLayout>

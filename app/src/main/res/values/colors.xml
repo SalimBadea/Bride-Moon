@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7769af</color>
+    <color name="colorPrimaryDark">#c9c6c8</color>
+    <color name="colorDark">#7769af</color>
+    <color name="colorAccent">#473d69</color>
+    <color name="sky">#ff8604</color>
+    <color name="skywhite">#fae6fc</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#da0707</color>
+    <color name="blue">#3019ae</color>
+    <color name="troe">#884bb4</color>
+    <color name="troe2">#5c1f87</color>
+    <color name="brown">#ffbe9d</color>
+    <color name="darkblue">#13598c</color>
+    <color name="ofgreen">#ceceff</color>
+    <color name="offbrown">#ad3f4c</color>
+    <color name="ored">#fde9bb</color>
+    <color name="yellow">#f2fa0c</color>
+    <color name="ogreen">#6dddf1</color>
+    <color name="grey">#9b9c9c</color>
+
+</resources>

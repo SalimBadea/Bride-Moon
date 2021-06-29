@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ph_layout"
+    android:background="@drawable/bg">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@drawable/bg2">
+
+      <com.flaviofaria.kenburnsview.KenBurnsView
+          android:id="@+id/ph_view"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_margin="19dp"
+          android:background="@drawable/bg2"
+          android:scaleType="centerCrop" />
+
+      <ImageButton
+          android:layout_width="25dp"
+          android:layout_height="40dp"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentLeft="true"
+          android:layout_centerVertical="true"
+          android:background="#00FFFFFF"
+          android:src="@drawable/ic_keyboard_arrow_left_black_24dp" />
+
+      <ImageButton
+          android:layout_width="25dp"
+          android:layout_height="40dp"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"
+          android:background="#00FFFFFF"
+          android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+
+   </RelativeLayout>
+</LinearLayout>

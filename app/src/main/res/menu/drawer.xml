@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/home"
+        android:id="@+id/H"
+        android:icon="@drawable/ic_home_black_24dp" />
+
+    <item
+        android:title="@string/contact_us"
+        android:id="@+id/C"
+        android:icon="@drawable/ic_contact_phone_black_24dp" />
+
+
+    <item
+        android:title="@string/exit"
+        android:id="@+id/Exit"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+
+
+
+</menu>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="330dp"
+    android:layout_height="270dp"
+    android:layout_gravity="center"
+    android:background="@drawable/cover"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_dialog"
+        android:layout_width="307dp"
+        android:layout_height="235dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/choose"
+            android:layout_width="180dp"
+            android:layout_height="57dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:background="@drawable/text"
+            android:gravity="center"
+            android:text="اختر صورة"
+            android:textColor="@color/troe"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/studio"
+            android:layout_width="129dp"
+            android:layout_height="55dp"
+            android:layout_gravity="end|center_vertical"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="@drawable/sign_up"
+            android:text="الإستديو"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/close"
+            android:layout_width="129dp"
+            android:layout_height="55dp"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/sign_up"
+            android:gravity="center"
+            android:text="إلغاء"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

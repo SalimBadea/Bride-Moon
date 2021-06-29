@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Bride Moon</string>
+    <string name="action_settings">الاعدادات</string>
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+    <string name="address">87, Imam Mohamed Abdo st, Torill New Road, Mansoura City, Egypt </string>
+    <string name="telephone">phone…</string>
+    <string name="tel">050 – 2478868</string>
+    <string name="mob" translatable="false">+201032324334</string>
+    <string name="email" translatable="false">info@Digmaweb.com </string>
+    <string name="adress" translatable="false">Address</string>
+    <string name="mail">Email at …</string>
+    <string name="rate_it_now">Rate it now …</string>
+    <string name="submit">تـم</string>
+    <string name="later">ليس الآن</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="exit">تسجيل خروج</string>
+    <string name="search">بحث</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="login_email">ادخل البريد الالكتروني ...</string>
+    <string name="login_password">... ادخل كلمة المرور</string>
+    <string name="username">اسم المستخدم ...</string>
+    <string name="user_address">ادخل العنوان ...</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="register">عمل حساب جديد</string>
+    <string name="regist">تسجيل</string>
+    <string name="ateliers">الاتيليهات</string>
+
+    <string name="details">تفاصيل المنتج</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_key">AIzaSyCIyXLL4Ihkd9l00P-HVLb9nnPpb0mJCqM</string>
+    <string name="next">التالي</string>
+    <string name="phonetext">... ادخل رقم المحمول</string>
+
+
+</resources>
